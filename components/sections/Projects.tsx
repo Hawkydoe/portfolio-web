@@ -80,14 +80,7 @@ export default function Projects() {
                       {project.date}
                     </Badge>
                   </div>
-                  {project.award && (
-                    <div className="absolute top-4 right-4">
-                      <Badge className="bg-gradient-to-r from-yellow-500 to-orange-500 text-white shadow-lg">
-                        <Award className="w-3 h-3 mr-1" />
-                        {project.award}
-                      </Badge>
-                    </div>
-                  )}
+                  
                 </div>
                 
                 <CardHeader>
@@ -131,18 +124,7 @@ export default function Projects() {
                   </div>
                   
                   <div className="flex flex-col gap-2 pt-2">
-                    {project.demoUrl && (
-                      <Button 
-                        size="sm"
-                        className="bg-gradient-to-r from-blue-600 to-teal-600 hover:from-blue-700 hover:to-teal-700 text-white"
-                        asChild
-                      >
-                        <a href={project.demoUrl} target="_blank" rel="noopener noreferrer">
-                          <ExternalLink className="w-3 h-3 mr-2" />
-                          View Live Demo
-                        </a>
-                      </Button>
-                    )}
+                   
                     {project.githubUrl && (
                       <Button variant="outline" size="sm" asChild>
                         <a href={project.githubUrl} target="_blank" rel="noopener noreferrer">
