@@ -20,13 +20,13 @@ const skillCategories: SkillCategory[] = [
   {
     title: 'Programming Languages',
     icon: Code,
-    skills: ['Python', 'JavaScript/TypeScript', 'C++', 'Java', 'Golang'],
+    skills: ['Java', 'Python', 'JavaScript/TypeScript', 'C', 'XML'],
     color: 'blue'
   },
   {
     title: 'Libraries & Frameworks',
     icon: Wrench,
-    skills: ['TensorFlow', 'PyTorch', 'Scikit-Learn', 'React.js', 'Next.js', 'Node.js', 'Express.js', 'Flask', 'Django'],
+    skills: ['React.js', 'Next.js', 'Node.js', 'Express.js', 'Flask', 'Django', 'TensorFlow', 'PyTorch', 'Scikit-Learn'],
     color: 'teal'
   },
   {
@@ -38,7 +38,7 @@ const skillCategories: SkillCategory[] = [
   {
     title: 'Data & Analytics',
     icon: Database,
-    skills: ['NumPy', 'Pandas', 'Matplotlib', 'Seaborn', 'PostgreSQL', 'MongoDB', 'GeoPandas', 'Rasterio'],
+    skills: ['NumPy', 'Pandas', 'Matplotlib', 'Seaborn', 'PostgreSQL', 'MongoDB'],
     color: 'orange'
   }
 ];

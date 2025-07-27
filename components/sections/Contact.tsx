@@ -39,8 +39,8 @@ export default function Contact() {
                       <Mail className="w-6 h-6 text-blue-600" />
                     </div>
                     <h4 className="font-semibold mb-2 text-foreground">Email</h4>
-                    <a href="mailto:akshatjha27@gmail.com" className="text-muted-foreground hover:text-blue-600 transition-colors">
-                      akshatjha27@gmail.com
+                    <a href="mailto:arunkumarrvenkatesh@gmail.com" className="text-muted-foreground hover:text-blue-600 transition-colors">
+                      arunkumarrvenkatesh@gmail.com
                     </a>
                   </CardContent>
                 </Card>
@@ -69,7 +69,7 @@ export default function Contact() {
                   Download my latest resume to learn more about my experience and skills.
                 </p>
                 <Button className="bg-gradient-to-r from-blue-600 to-teal-600 hover:from-blue-700 hover:to-teal-700 text-white" asChild>
-                  <a href="https://drive.google.com/drive/folders/17rtsxuedz-NhG2L_PpAmvUi7JLhUh-Tf" target="_blank" rel="noopener noreferrer">
+                  <a href="https://drive.google.com/file/d/1XXgegxq0dDASQeRxC_SaRC6aMHYj4lT_/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                     <Download className="w-4 h-4 mr-2" />
                     Download Resume
                   </a>

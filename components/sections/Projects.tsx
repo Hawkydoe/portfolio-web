@@ -7,89 +7,36 @@ import { Button } from '@/components/ui/button';
 import { ExternalLink, Github, Award, TrendingUp, Calendar } from 'lucide-react';
 
 const projects = [
+ 
   {
-    title: 'Light Pollution Explorer',
-    description: 'Interactive web tool to visualize light pollution severity across 28 Indian states with real VIIRS satellite data',
-    image: 'https://images.pexels.com/photos/1252890/pexels-photo-1252890.jpeg?auto=compress&cs=tinysrgb&w=800',
-    date: 'March 2025',
-    achievements: [
-      'Built interactive visualization using React.js and Node.js',
-      'Automated shapefile generation and per-state light intensity extraction via Python',
-      'Enabled 10-year trend plots with 40% reduction in preprocessing time'
-    ],
-    technologies: ['React.js', 'Node.js', 'Python', 'GeoPandas', 'Rasterio', 'Web Development', 'Data Visualization'],
-    demoUrl: 'https://light-pollution-explorer.lovable.app/',
-    githubUrl: 'https://github.com/AkshatJha0411/light-pollution-explorer',
-    award: '3rd Place - Orion Hackathon 2025'
-  },
-  {
-    title: 'Dealora (IIT Mandi\'s Marketplace)',
-    description: 'Mobile/web platform for second-hand item exchange at IIT Mandi with real-time updates and authentication',
-    image: 'https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=800',
-    date: 'February 2025',
-    achievements: [
-      'Built a mobile/web platform for second-hand item exchange at IIT Mandi using React (TypeScript)',
-      'Developed backend with Node.js and Supabase (PostgreSQL) for real-time updates and auth',
-      'Won 3rd place in KrackHack 2.0 (GDG)'
-    ],
-    technologies: ['PostgreSQL', 'React', 'Node.js', 'Express', 'TypeScript', 'Supabase'],
-    githubUrl: 'https://github.com/AkshatJha0411/Dealora-Marketplace',
-    award: '3rd Place - KrackHack 2.0 (GDG)'
-  },
-  {
-    title: 'AI-Powered Pulsar Detection',
-    description: 'Enhanced pulsar detection system achieving 97.35% accuracy using advanced machine learning techniques',
+    title: 'Android-Based Instagram Clone',
+    description: 'A fully functional Instagram clone developed for Android, featuring user authentication, image uploads, real-time feeds, and social interactions',
     image: 'https://images.pexels.com/photos/2150/sky-space-dark-galaxy.jpg?auto=compress&cs=tinysrgb&w=800',
     date: 'January 2025',
     achievements: [
-      'Enhanced pulsar detection to 97.35% accuracy using Random Forest by optimizing features and addressing class imbalance',
-      'Designed a CNN-based pulsar classification pipeline in PyTorch with 4 convolutional layers',
-      'Achieved 3x faster training with batch normalization'
+      'Engineered secure user authentication, image upload, and dynamic real-time feeds using Firebase services',
+      'Integrated robust social features including likes, comments, and follows for interactive user engagement',
+      'Designed an intuitive, responsive mobile interface leveraging Kotlin and Material Design principles'
     ],
-    technologies: ['Python', 'Seaborn', 'Scikit-Learn', 'PyTorch', 'Jupyter Notebook'],
-    githubUrl: 'https://github.com/AkshatJha0411/SpaceCode-Hackathon/',
-    award: '3rd Place - SpaceCode Hackathon'
+    technologies: ['Kotlin', 'Firebase Authentication', 'Firebase Firestore', 'Firebase Storage', 'Android Studio', 'Material Design'],
+    githubUrl: 'https://github.com/AkshatJha0411/SpaceCode-Hackathon../',
+    
   },
   {
-    title: 'SustainX',
-    description: 'Flutter-Firebase app that tracks real-time energy use, air quality, and carbon footprint, targeting college students and campuses',
+    title: 'ECommerce Website',
+    description: 'An interactive ecommerce platform designed for buying and selling pet fish, aquariums, and accessories, with seamless customer and inventory management',
     image: 'https://images.pexels.com/photos/1108572/pexels-photo-1108572.jpeg?auto=compress&cs=tinysrgb&w=800',
-    date: 'Aug 2024 - Dec 2024',
+    date: 'Sep 2024 - Dec 2024',
     achievements: [
-      'Developed a Flutter-Firebase app that tracks real-time energy use, air quality, and carbon footprint, targeting college students and campuses',
-      'Integrated Gemini chatbot for interactive sustainability guidance, alongside custom UI, Google Fonts, and smart device control features'
+      'Built a responsive online shop featuring detailed fish profiles, aquarium products, secure cart, and checkout functionalities',
+      'Integrated real-time stock management and streamlined order fulfillment with multiple payment options',
+      'Enhanced browsing experience with advanced search, filtering, and care guidance resources for fish enthusiasts'
     ],
-    technologies: ['Flutter', 'Dart', 'Firebase', 'Gemini API', 'IoT'],
-    githubUrl: 'https://github.com/AkshatJha0411/SustainX/',
-    award: 'Top 10 teams - DP Open House'
+    technologies: ['React', 'Node.js', 'Express', 'MongoDB', 'Stripe API', 'AWS', 'Bootstrap'],
+    githubUrl: 'https://github.com/AkshatJha0411/SustainXxx/',
+    
   },
-  {
-    title: 'Telecommunications Using ROS',
-    description: 'Robot teleoperation system using ROS for communication and remote command control',
-    image: 'https://images.pexels.com/photos/2599244/pexels-photo-2599244.jpeg?auto=compress&cs=tinysrgb&w=800',
-    date: 'January - May 2024',
-    achievements: [
-      'Designed and implemented a robot teleoperation system using ROS for communication',
-      'Integrated Arduino (C++) for hardware control and Python (Tkinter) for user interface',
-      'Developed a mini UI to send commands via a ROS-based server with NodeMCU execution'
-    ],
-    technologies: ['ROS', 'Python', 'Tkinter', 'Arduino', 'C++', 'NodeMCU'],
-    demoUrl: 'https://vimeo.com/949310056?share=copy',
-    githubUrl: 'https://github.com/AkshatJha0411/teleop-with-ros'
-  },
-  {
-    title: 'SproutVestor',
-    description: 'Web application to assist novice investors and students in making informed stock selections',
-    image: 'https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=800',
-    date: 'February 2024',
-    achievements: [
-      'Built a web application using Next.js, React and Appwrite (Backend as a Service) to assist novice investors',
-      'Incorporated an initial questionnaire to gather user\'s investment timeframes and preferences',
-      'Developed a personalized stock recommendation feature based on user responses with secure access'
-    ],
-    technologies: ['Next.js', 'React', 'Appwrite', 'TypeScript', 'Authentication'],
-    githubUrl: 'https://github.com/AkshatJha0411/sproutvestor'
-  }
+ 
 ];
 
 export default function Projects() {

@@ -8,23 +8,23 @@ import { Trophy, Award, ExternalLink } from 'lucide-react';
 
 const achievements = [
   {
-    title: 'Orion Space Hackathon 2025',
+    title: 'The Buildathon',
     position: '3rd Place',
-    description: 'Light Pollution Explorer project',
+    description: 'Staff Management project',
     icon: Trophy,
     color: 'yellow'
   },
   {
-    title: 'SpaceCode Hackathon',
-    position: '3rd Place',
-    description: 'AI-Powered Pulsar Detection',
+    title: 'Jul - AI Hackathon',
+    position: '2nd Place',
+    description: 'Real - Time travel solutions',
     icon: Award,
     color: 'blue'
   },
   {
-    title: 'KrackHack 2.0 (GDG)',
-    position: '3rd Place',
-    description: 'Dealora Marketplace project',
+    title: 'TIC - 2024',
+    position: 'National Semi-Finalists',
+    description: 'Tata Imagination Challenge',
     icon: Award,
     color: 'teal'
   }
@@ -32,24 +32,24 @@ const achievements = [
 
 const certifications = [
   {
-    title: 'Google Cloud Public Profile',
-    description: 'Comprehensive cloud skills and achievements',
-    link: 'https://www.cloudskillsboost.google/public_profiles/d4bd12d2-80fb-43a7-ba30-536890e3e09f'
+    title: 'Oracle Fusion Cloud Applications',
+    description: 'HCM Process Essentials Certified - Rel 1',
+    link: 'https://www.cloudskillsboost.google/public_profiles/d4bd12d2.-80fb-43a7-ba30-536890e3e09f.'
   },
   {
-    title: 'Advanced Python: Working with Data',
+    title: 'Azure Basics and Fundamentals',
     description: 'LinkedIn Learning Certification',
-    link: 'https://www.linkedin.com/learning/certificates/cbaafd2959fdd9c1f7582a234173da86cd0bfed1cf7f05d66c4ffa2c9b6773f7'
+    link: 'https://www.linkedin.com/learning/certificates/cbaafd29..59fdd9c1f7582a234173da86cd0bfed1cf7f05d66c4ffa2c9b6773f7.'
   },
   {
-    title: 'DevOps with AWS',
-    description: 'LinkedIn Learning Certification',
-    link: 'https://www.linkedin.com/learning/certificates/0a554bf6692410db2e6064d5fe1cdf41ad584cef0705577cd3842005ddbab24c?lipi=urn:li:page:d_flagship3_profile_view_base_certifications_details;tq+kjguvQNyolStsUlEIpg=='
+    title: 'Introduction to Data Science',
+    description: 'Cisco Certification',
+    link: 'https://www.linkedin.com/learning/certificates/0a554bf.6692410db2e6064d5fe1cdf41ad584cef0705577cd3842005ddbab24c?li.pi=urn:li:page:d_flagship3_profile_view_base_certifications_details;tq+kjguvQNyolStsUlEIpg=='
   },
   {
-    title: 'Career Essentials in Generative AI',
-    description: 'Microsoft and LinkedIn Certification',
-    link: 'https://www.linkedin.com/learning/certificates/cbaafd2959fdd9c1f7582a234173da86cd0bfed1cf7f05d66c4ffa2c9b6773f7'
+    title: 'Mongo DB Basics',
+    description: 'ICT Academy Certification',
+    link: 'https://www.linkedin.com/learning/certificates/cbaafd29..59fdd9c1f7582a234173da86cd0bfed1cf7f05d66c4ffa2c9.b6773f7'
   }
 ];
 

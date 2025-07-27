@@ -7,40 +7,40 @@ import { Building, MapPin, Calendar, TrendingUp } from 'lucide-react';
 
 const experiences = [
   {
-    company: 'HyperQube Ionic',
+    company: 'WiseSource Solutions',
     role: 'SDE Intern (Summer)',
     location: 'Remote',
     period: 'June 2025 – Present',
     achievements: [
-      'Architected a scalable analytics system with Amplitude and Clerk integration, engineered to capture live user events across various org segments and drive insights from 5K+ monthly actions.'
+      'Architected an analytics system with Amplitude and Clerk integration, engineered to capture live user events across various org segments.'
     ],
     technologies: ['Data Analytics', 'Amplitude', 'Event Tracking', 'REST APIs'],
     color: 'green'
   },
   {
-    company: 'VectorX DB (prev. LaunchX Labs)',
-    role: 'SDE Intern',
-    location: 'Bengaluru, Karnataka',
+    company: 'DLK Technologies',
+    role: 'Web Developer Intern',
+    location: 'Chennai, TamilNadu',
     period: 'Dec. 2024 – Jan. 2025',
     achievements: [
-      'Designed AI agents (LLM Agent & RAG Agent) with PGVectorStore and GPT-4o-mini, reducing response time by 50% and improving retrieval accuracy',
-      'Built a metadata extraction pipeline with LangChain\'s LLM, automating document processing for 1M+ documents monthly',
-      'Developed a dynamic filter system with FilterAgent and Claude 3.5 Sonnet, generating 100K+ JSON filters daily and boosting DB query efficiency by 40%'
+      'Developed responsive web components using React and Tailwind CSS, enhancing user experience and reducing page load time by 35%',
+      'Automated deployment workflows with GitHub Actions, cutting manual release efforts by 70% and ensuring seamless continuous integration',
+      'Implemented RESTful APIs with Node.js and Express, improving data retrieval speed by 40% and supporting 10,000+ daily active users'
     ],
-    technologies: ['Python', 'LangChain', 'GPT-4o-mini', 'Claude 3.5 Sonnet', 'PGVectorStore', 'AI Agents', 'RAG'],
+    technologies: ['React-JS', 'MongoDB', 'Express JS', 'Node JS', 'TailWindCSS', 'Redis', 'Vue JS'],
     color: 'blue'
   },
   {
-    company: 'Urbanchat.ai',
-    role: 'Backend Developer Intern',
-    location: 'Remote (Malta, Europe)',
-    period: 'June 2024 – Aug. 2024',
+    company: 'Revamp Academy',
+    role: 'Android Developer Intern',
+    location: 'Remote ',
+    period: 'April. 2024 – May. 2024',
     achievements: [
-      'Architected AppSumo webhook and OAuth integration, developing REST APIs to automate 95% of onboarding and reduce user setup time',
-      'Migrated the voicebot\'s speech synthesis from Amazon Polly to Deepgram, decreasing average response time from 7 seconds to 1.2 seconds, which amplified user engagement by 24%',
-      'Engineered the backend for an interruption feature in a voice AI chatbot using Twilio\'s API, cutting response delays by 35%'
+      'Created dynamic UI designs for Android applications using XML in Android Studio',
+      'Utilized Java language to develop efficient backend logic, navigation, and in-app events',
+      'Integrated Firebase as a database solution and gained hands-on experience through project assignments'
     ],
-    technologies: ['Node.js', 'REST APIs', 'Amazon Polly', 'Deepgram', 'Twilio API', 'OAuth', 'Webhooks'],
+    technologies: ['XML', 'REST APIs', 'Java', 'Redux', 'Twilio API', 'OAuth', 'Webhooks'],
     color: 'teal'
   }
 ];

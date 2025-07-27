@@ -36,7 +36,7 @@ export default function Hero() {
           >
             <div className="w-full h-full rounded-full bg-background flex items-center justify-center">
               <span className="text-4xl font-bold bg-gradient-to-br from-blue-600 to-teal-600 bg-clip-text text-transparent">
-                AJ
+                AK
               </span>
             </div>
           </motion.div>
@@ -49,7 +49,7 @@ export default function Hero() {
             className="space-y-4"
           >
             <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold tracking-tighter">
-              {"Akshat Jha".split(" ").map((word, wordIndex) => (
+              {"Arunkumar".split(" ").map((word, wordIndex) => (
                 <span
                   key={wordIndex}
                   className="inline-block mr-4 last:mr-0"
@@ -95,7 +95,7 @@ export default function Hero() {
               }}
             >
               <h2 className="text-xl sm:text-2xl font-semibold text-foreground mb-3">
-                Software Engineer & AI/ML Enthusiast
+                Full Stack Developer & AI/ML Enthusiast
               </h2>
               <p className="text-lg text-muted-foreground leading-relaxed">
                 Building intelligent solutions and automating the future, one line of code at a time
@@ -117,7 +117,7 @@ export default function Hero() {
               className="group hover:bg-blue-50 hover:border-blue-300 dark:hover:bg-blue-900/20"
             >
               <a
-                href="https://linkedin.com/in/iakshatjha"
+                href="https://www.linkedin.com/in/arunkumar-venkatesan/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center space-x-2"
@@ -135,7 +135,7 @@ export default function Hero() {
               className="group hover:bg-gray-50 hover:border-gray-300 dark:hover:bg-gray-800"
             >
               <a
-                href="https://github.com/AkshatJha0411/"
+                href="https://github.com/Hawkydoe"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center space-x-2"
@@ -153,7 +153,7 @@ export default function Hero() {
               className="group hover:bg-pink-50 hover:border-pink-300 dark:hover:bg-pink-900/20"
             >
               <a
-                href="https://www.instagram.com/iakshatjha/#"
+                href="https://www.instagram.com/_arun_125z/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center space-x-2"
@@ -171,7 +171,7 @@ export default function Hero() {
               className="group hover:bg-orange-50 hover:border-orange-300 dark:hover:bg-orange-900/20"
             >
               <a
-                href="https://leetcode.com/iakshatjha"
+                href="https://leetcode.com/u/AstaRTX/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center space-x-2"
